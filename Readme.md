@@ -73,7 +73,7 @@ e.g. conda install numpy
 
 >nltk.download('punkt_tab')
 
-when there is a mark 'True' in the CLI, you can exit python, please type the instruction below in your CLI.
+When there is a mark 'True' in the CLI, you can exit python, please type the instruction below in your CLI.
 
 >exit()
 
