@@ -64,6 +64,11 @@ Please use the follwing instruction format to download python packages
 
 e.g. conda install numpy
 
+### Before using this virtual environment, you need to download the stop-words, Please type the following instruction in your CLI.
+>python
+>import nltk
+>nltk.download('stopwords')
+
 ### If you want get the whole results, you need to activate the virtual environment first ,and then you can type this instruction below or paste it in your linux CLI
 
 >python part2.py
