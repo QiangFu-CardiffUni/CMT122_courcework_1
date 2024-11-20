@@ -4,6 +4,8 @@
 
 **Student ID:** 20462588
 
+### [NOTE] There are 4 files, please make sure they are in the same path in linux.
+
 ### Platform and libraries version
 
 **Brief introduction**
