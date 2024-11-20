@@ -18,7 +18,7 @@ from gensim.models import Word2Vec  # For word embeddings
 # Step 1
 # Load dataset
 # Load the dataset, which should have two columns:
-dataset = pd.read_csv('/home/hare/NLP/CMT122/bbc-text.csv')
+dataset = pd.read_csv('bbc-text.csv')
 X = dataset['text']  # Feature column containing text data
 y = dataset['category']  # Target column containing labels
 
