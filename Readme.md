@@ -71,6 +71,10 @@ e.g. conda install numpy
 
 >nltk.download('stopwords')
 
+when there is a mark 'True' in the CLI, you can exit python, please type the instruction below in your CLI.
+
+>exit()
+
 ### If you want get the whole results, you need to activate the virtual environment first ,and then you can type this instruction below or paste it in your linux CLI
 
 >python part2.py
