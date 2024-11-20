@@ -64,7 +64,7 @@ Please use the follwing instruction format to download python packages
 
 e.g. conda install numpy
 
-### Before using this virtual environment, you need to download the stop-words, Please type the following instruction in your CLI.
+### Before using this virtual environment, you need to download the stop-words and punctuation, Please type the following instruction in your CLI.
 >python
 
 >import nltk
