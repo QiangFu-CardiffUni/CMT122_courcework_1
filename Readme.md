@@ -32,6 +32,8 @@ Please put the 'bbc-text.csv' file in the same path as the part2.py file
 
 **Nltk version:** nltk 3.9.1
 
+**Gensim version:** gensim 4.3.3
+
 ### Here, use anaconda for the demonstration (please type the instruction below in your CLI)
 
 **Install the necessary dependencies**
