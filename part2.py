@@ -15,6 +15,10 @@ from nltk.corpus import stopwords  # For removing stopwords
 from nltk.tokenize import word_tokenize  # For text tokenization
 from gensim.models import Word2Vec  # For word embeddings
 
+# Set global random seed for reproducibility
+random.seed(0)
+np.random.seed(0)
+
 # Step 1
 # Load dataset
 # Load the dataset, which should have two columns:
@@ -48,6 +52,7 @@ word2vec_model = Word2Vec(
     window=5,  # Context window size for neighboring words
     min_count=1,  # Minimum frequency threshold for words to be included
     workers=4  # Number of parallel threads
+    seed=0  # Fixed seed for reproducibility
 )
 
 # Function to compute the average Word2Vec embedding for a document
