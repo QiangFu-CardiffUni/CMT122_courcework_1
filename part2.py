@@ -1,4 +1,3 @@
-# Libraries for text processing, feature extraction, dimensionality reduction, model training, and evaluation
 from sklearn.decomposition import PCA  # Principal Component Analysis (PCA) for dimensionality reduction
 from sklearn.model_selection import train_test_split  # To split dataset into training, development, and testing sets
 from sklearn.feature_extraction.text import TfidfVectorizer  # To extract TF-IDF features
@@ -15,9 +14,8 @@ from gensim.models import Word2Vec  # To train word embedding model
 from sklearn.preprocessing import PolynomialFeatures  # To create polynomial features
 import matplotlib.pyplot as plt  # To plot graphs
 
-# Load dataset
 # Load a dataset that contains two columns: 'text' (news content) and 'category' (labels)
-dataset = pd.read_csv('bbc-text.csv')
+dataset = pd.read_csv('/home/hare/NLP/CMT122/bbc-text.csv')
 X = dataset['text']  # Text content
 y = dataset['category']  # Category labels
 
@@ -118,7 +116,7 @@ class FeatureCombiner:
 X_train, X_temp, y_train, y_temp = train_test_split(X, y, test_size=0.3, random_state=0)
 X_develop, X_test, y_develop, y_test = train_test_split(X_temp, y_temp, test_size=0.5, random_state=0)
 
-# Step 6: Adjust PCA dimensions using the development set
+# Adjust PCA dimensions using the development set
 pca_dimensions = [10, 20, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600]  # PCA dimensions to evaluate
 best_f1 = 0  # Best F1-score found
 best_pca_dim = None  # Corresponding best PCA dimension
@@ -178,6 +176,6 @@ test_accuracy = accuracy_score(y_test, y_test_pred)
 # Print final test set results
 print("\nTest Set Results with Best PCA Dimension:")
 print("\tAccuracy: {:.2f}".format(test_accuracy))
-print("\tMacro Precision: {:.2f}".format(test_precision))
-print("\tMacro Recall: {:.2f}".format(test_recall))
-print("\tMacro F1-Score: {:.2f}".format(test_f1))
+print("\tMacro-Averaged Precision: {:.2f}".format(test_precision))
+print("\tMacro-Averaged Recall: {:.2f}".format(test_recall))
+print("\tMacro-Averaged F1-Score: {:.2f}".format(test_f1))
