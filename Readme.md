@@ -83,6 +83,8 @@ When there is a mark 'True' in the CLI, you can exit python, please type the ins
 
 >python part2.py
 
+When your linux CLI shows a picture, please close it. Then the result of test-set will be showed.
+
 ### The calculation result is displayed on the linux CLI
 The output results will include Accuracy, Macro Precision, Macro Recall, Macro F1-Score and Average accuracy, Average Macro Precision, Average Macro Recall, Average Macro F1-Score. The picture below shows the result.
 ![result](image-1.png)
