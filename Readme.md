@@ -87,5 +87,4 @@ When your linux CLI shows a picture, please close it. Then the result of test-se
 
 ### The calculation result is displayed on the linux CLI
 The output results will include Accuracy, Macro Precision, Macro Recall, Macro F1-Score and Average accuracy, Average Macro Precision, Average Macro Recall, Average Macro F1-Score. The picture below shows the result.
-
-![image-1](https://github.com/user-attachments/assets/c1dc51c9-7a81-4037-8780-a9b5f25518fd)
+![image-1](https://github.com/user-attachments/assets/057e8525-3a52-4956-b992-b02be6a54682)
