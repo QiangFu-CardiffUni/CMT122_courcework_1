@@ -34,6 +34,8 @@ Please put the 'bbc-text.csv' file in the same path as the part2.py file
 
 **Gensim version:** gensim 4.3.3
 
+**Matplotlib version:** matplotlib 3.9.2
+
 ### Here, use anaconda for the demonstration (please type the instruction below in your CLI)
 
 **Install the necessary dependencies**
