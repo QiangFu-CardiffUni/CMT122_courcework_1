@@ -15,7 +15,7 @@ from sklearn.preprocessing import PolynomialFeatures  # To create polynomial fea
 import matplotlib.pyplot as plt  # To plot graphs
 
 # Load a dataset that contains two columns: 'text' (news content) and 'category' (labels)
-dataset = pd.read_csv('/home/hare/NLP/CMT122/bbc-text.csv')
+dataset = pd.read_csv('bbc-text.csv')
 X = dataset['text']  # Text content
 y = dataset['category']  # Category labels
 
